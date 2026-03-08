@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday ❤️</title>
+<style>
+body{
+  text-align:center;
+  font-family:Arial;
+  background:linear-gradient(pink,white);
+}
+
+h1{
+  color:red;
+  font-size:50px;
+}
+
+p{
+  font-size:22px;
+}
+
+button{
+  padding:12px 25px;
+  font-size:18px;
+  background:red;
+  color:white;
+  border:none;
+  border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Happy Birthday My Love 🎂</h1>
+
+<p>
+Today is special because the most amazing person was born.
+You make my world brighter and my heart happier.
+I’m so lucky to have you in my life ❤️
+</p>
+
+<button onclick="showMessage()">Click for Surprise</button>
+
+<p id="msg"></p>
+
+<script>
+function showMessage(){
+document.getElementById("msg").innerHTML =
+"I love you more than words can say. Happy Birthday ❤️";
+}
+</script>
+
+</body>
+</html>
